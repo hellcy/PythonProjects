@@ -7,7 +7,7 @@ class NamesTestCase(unittest.TestCase):
         formatted_name = get_formatted_name("yuan", "cheng")
         self.assertEqual(formatted_name, 'Yuan Cheng')
 
-    def not_test(self):
+    def test(self):
         formatted_name = get_formatted_name("yuan", "cheng")
         self.assertEqual(formatted_name, 'Yuan2 Cheng')
 
